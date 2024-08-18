@@ -1,0 +1,46 @@
+/* List.css */
+.list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px; /* Space between header and table */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px; /* Space between buttons */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.actions {
+    display: flex;
+    gap: 5px; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+}

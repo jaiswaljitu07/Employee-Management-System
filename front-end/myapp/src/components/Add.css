@@ -1,0 +1,108 @@
+/* Add.css */
+.small-container {
+    max-width: 600px;
+    margin: 40px auto; /* Space from top */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 30px; /* Space between header and form */
+    color: #333; /* Optional: Set a color for the header */
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px; /* Space from the previous element */
+}
+
+button[type="submit"] {
+    background-color: #28a745; /* Green color for "Add Employee" button */
+}
+
+button[type="button"] {
+    background-color: #6c757d; /* Color for "Cancel" button */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Align buttons horizontally */
+    margin-top: 20px;
+}
+
+.h1tag {
+    margin-top: 40px; /* Space from top */
+}
+
+/* List.css */
+.table-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.table-container h1 {
+    margin-bottom: 20px; /* Space from table */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px; /* Space between buttons */
+}
+
+button.edit {
+    background-color: #007bff; /* Blue color for "Edit" button */
+}
+
+button.delete {
+    background-color: #dc3545; /* Red color for "Delete" button */
+}
+
+button:hover {
+    opacity: 0.8;
+}
